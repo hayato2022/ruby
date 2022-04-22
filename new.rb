@@ -1,8 +1,23 @@
+#インスタンスメソッド
+
+  class Car
+   def self .turn(direction)
+     puts "#{direction}に曲がります"
+   end
+ end
+
+
+Car.turn("右")
+
+
+
+
+
+#クラスメソッド
 class Car
-  def run(distance)
+  def self.run(distance)
     puts "車で#{distance}キロで走ります"
   end
 end
 
-car = Car.new
-car.run(5)
+Car.run(5)
