@@ -1,13 +1,13 @@
 #インスタンスメソッド
 
   class Car
-   def self .turn(direction)
+   def turn(direction)
      puts "#{direction}に曲がります"
    end
- end
+  end
 
-
-Car.turn("右")
+  car=Car.new
+  car.turn("右")
 
 
 
